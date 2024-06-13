@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="./dienthoai.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thuý Hằng</title>
+    <link rel="stylesheet" href="btl.css">
+   <script type="text/Javascript" src="btl.js"></script>
+   <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div class="nutlen">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {
+                    $('.nutlen').fadeIn();
+                } else {
+                    $('.nutlen').fadeOut();
+                    }
+            });
+            $(".nutlen").click(function() { 
+                $('html, body').animate({
+                    scrollTop: 0
+                    }, 500);
+                });
+            });
+        </script>
+<!-- tiêu đề -->
+    <header>
+        <div class="tieude">
+            <div class="tieude_chinh">
+                
+                <div class="nutbar">
+                    <ul class="tieude_phai">
+                        <li class="tieudebe"><a href="#Home">Home</a></li>
+                        <li class="tieudebe"><a href="#About">About</a></li>
+                        <li class="tieudebe1"><a href="#Portfolio">Portfolio</a> </li>
+                        <li class="tieudebe"><a href="#Services">Services</a></li>
+                        <li class="tieudebe"><a href="#Testimonials">Testimonials</a></li>
+                        <li class="tieudebe"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class=" dropdown">
+                    <div class="iconbar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="dropdown_content">
+                        <a href="#Home">Home</a><br>
+                        <a href="#About">About</a><br>
+                        <a href="#Portfolio">Portfolio</a><br>
+                        <a href="#Services">Services</a><br>
+                        <a href="#Testimonials">Testimonials</a><br>
+                        <a href="#Contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                }
+                else{
+                    $('header').removeClass('sticky');
+                }
+            })
+        })
+    </script>
+    <!-- benler -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>NGUYỄN THUÝ HẰNG <i class="fa fa-heart"></i></h1>
+            <h2>WELCOME TO MY WEB!</h2>
+        </div>
+        
+    </section>
+    <div class="body">
+        <!-- about -->
+        <div class="body_about">
+            <div class="body_about_chu" >
+                <h3 id="About">ABOUT</h3>
+            </div>
+            <div class="body_about_tong">
+                <div class="body_about_anh">
+                    <div class="icontym">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="12.jpg" alt="" width="100%" height="712px">
+                </div>
+                <div class="body_about_noidung">
+                    <p class="body_about_noidung1"> 
+                        <p class="xinchao">HELLO!</p>
+                        - Tôi là Nguyễn Thuý Hằng - một sinh viên năm 2 đang theo học tại Trường Đại học Thủ đô Hà Nội ngành Toán Ứng Dụng.
+                        <br><br>
+                        - Tôi sinh ngày 02/07/2004, sinh ra và lớn lên tại Cổ Loa-Đông Anh-Hà Nội
+                        <br><br>
+                        - Ngoài việc học, tôi thích nghe nhạc, xem phim, đi chơi gặp gỡ bạn bè. 
+                        <br><br>
+                        - Tôi luôn cố gắng học hỏi những kiến thức mới, làm việc hết mình, sẵn sàng đón nhận thử thách mới để nâng cao kĩ năng và trình độ của bản thân. Đúc kết kinh nghiệm để có thể làm việc thật tốt trong tương lai.  
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="body_about_end">
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <section id="Portfolio" class="Portfolio">
+        <div class="portfolio">
+        <h2>PORTFOLIO</h2></div>
+        <div class="homework1">
+            <div class="LAB">
+                <h3>Buổi 1</h3>
+                <div class="baitap baitap1">
+                    <p><a href="buổi1.html" target="_blank">Bài 1</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 2</h3>
+                <div class="baitap baitap2">
+                    <p><a href="bai1 buoi2.html" target="_blank">Bài 1</a></p>
+                    <p><a href="bai2 buoi2.html" target="_blank">Bài 2</a></p>
+                    <p><a href="bai3 buoi2.html" target="_blank">Bài 3</a></p>
+                    <p><a href="bai4 buoi2.html" target="_blank">Bài 4</a></p>
+                    <p><a href="bai5 buoi2.html" target="_blank">Bài 5</a></p>
+                    <p><a href="bai6 buoi2.html" target="_blank">Bài 6</a></p>
+                    <p><a href="bai7 buoi2.html" target="_blank">Bài 7</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 3</h3>
+                <div class="baitap baitap3">
+                    <p><a href="B3-1.TestLab1.html" target="_blank">Bài 1</a></p>
+                    <p><a href="B3-2.1.html" target="_blank">Bài 2.1</a></p>
+                    <p><a href="B3-2.2.html" target="_blank">Bài 2.2</a></p>
+                    <p><a href="Buoi3b3.1.html" target="_blank">Bài 3.1</a></p>
+                    <p><a href="Buoi3b3.2.html" target="_blank">Bài 3.2</a></p>
+                    <p><a href="Buoi3b3.3.html" target="_blank">Bài 3.3</a></p>
+                    <p><a href="Buoi3b4.html" target="_blank">Bài 4.1</a></p>
+                    <p><a href="index.html" target="_blank">Bài 4.2</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 4</h3>
+                <div class="baitap baitap4">
+                    <p><a href="Buoi4.html">Bài 1</a></p>
+                    <p><a href="th2.html">Bài trên lớp</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 6</h3>
+                <div class="baitap baitap6">
+                    <p><a href="thbai6.3.html" target="_blank">Bài trên lớp</a></p>
+                    <p><a href="B6-1.2.html" target="_blank">Bài 2</a></p>
+                    <p><a href="index1.html" target="_blank">Bài 3</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 7</h3>
+                <div class="baitap baitap7">
+                    <p><a href="BTb7.html" target="_blank">Bài 1</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 8</h3>
+                <div class="baitap baitap8">
+                    <p><a href="b1.1b8.html" target="_blank">Bài 1.1</a></p>
+                    <p><a href="b1.2b8.html" target="_blank">Bài 1.2</a></p>
+                    <p><a href="bttlb8 (1).html" target="_blank">Bài 2</a></p>
+                    <p><a href="b8.3.html" target="_blank">Bài 3</a></p>
+                </div>
+            </div>
+            <div class="LAB">
+                <h3>Buổi 9</h3>
+                <div class="baitap baitap7">
+                    <p><a href="Buoi9b1.html" target="_blank">Bài 1</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+    <div class="body">
+        <div class="body_services_chu1" id="Services">
+            <h3>SERVICES</h3>
+        </div>
+        <div class="skill" data-percent="90">
+            
+            <h3>HTML</h3>
+            <div class="skills-bar"></div>
+            
+          </div>
+          <div class="skill" data-percent="80">
+           
+            <h3>CSS</h3>
+            <div class="skills-bar"></div>
+            
+          </div>
+          <div class="skill" data-percent="90">
+            
+            <h3>JAVA</h3>
+            <div class="skills-bar"></div>
+            
+          </div>
+        </div>
+         <!-- Testimonials -->
+         <div class="body_testimonials">
+            <div class="body_services_chu1" id="Testimonials">
+                <h4>TESTIMONIALS</h4>
+            </div>
+            <div class="resume-content">
+                
+                <div class="box">
+                  
+                  <h4> Phương Anh </h4>
+                  <center>
+                  <img src="15.jpg" alt="" width="20%" height="20%" >
+                </center>
+                 <p>Bạn ấy là người vui vẻ, hoạt bát và có trách nhiệm.</p>
+                  
+                </div>
+          
+               
+                <div class="box">
+                
+                  <h4> Phạm Yến </h4>
+                  <center>
+                  <img src="2.jpg" alt="" width="20%" height="20%">
+                </center>
+                  <p>Hằng có tính cách rất dễ thương.</p>
+                  
+                </div>
+         </div>
+    </div>
+    <div class="body_services_chu1" id="Contact">
+        <h3>CONTACT</h3>
+    </div>
+   <div class="contact">
+        <div class="contact_trai">
+            <div class="contact_trai1">
+                <div class="contact_trai_icon">
+                    
+                </div>
+                <div class="contact_trai_chu"><i class="fa fa-phone"></i>0349513782</div>
+            </div>
+            <div class="contact_trai1">
+                <div class="contact_trai_icon">
+                    
+                    
+                </div>
+                <div class="contact_trai_chu"><a href="https://www.facebook.com/profile.php?id=100024555584842&mibextid=LQQJ4d"> <i class="fa fa-facebook"></i>Facebook</a></div>
+            </div>
+            <div class="contact_trai1">
+                <div class="contact_trai_icon">
+                    
+                </div>
+                <div class="contact_trai_chu"> <i class="fa fa-envelope"></i>hang020704@gmail.com</div>
+            </div>
+        </div>
+        <div class="contact_phai">
+            <div class="form" style="text-align: center;">
+                <div style="font-size: 20px;"></div>
+                <form method="post" action="" onsubmit="return validateForm()" name="frm_dk" style="text-align: left; margin-left: 27%;">
+                    
+                    <p id="op">Tên:</p>
+                    <input class="in" type="text" name="txt_ten" size="20" style="width: 65%;">
+                    <p id="op">Email:</p>
+                    <input class="in" type="text" name="txt_email" size="20" style="width: 65%;">
+                    <p id="op">Số điện thoại:</p>
+                    <input class="in" type="text" name="txt_dienthoai" size="20" style="width: 65%;">
+                    <p id="op">Khác:</p>
+                    <input class="in" type="text" name="txt_khac" style="width: 65%; height: 150px;">
+                    <p></p>
+                    <input class="in" type="submit" name="submit" style="margin-left: 25%;padding: 5px; text-align: center; background-color: black; color: #fff;">
+                </form>
+            </div>
+        </div>
+   </div>
+   <style>
+    @media screen and (max-width:768px){
+    .tieude_phai{
+        display: none;
+    }
+    .iconbar{
+        display: block;
+    }
+    /* .nutbar .iconbar:hover .tieude_phai{
+       display: block; 
+       background-color: black;
+       font-size: 30px;
+       text-align: center;
+    } */
+    .body_services{
+        width: 100%;
+    }
+    .body_benler{
+        width: 100%;
+        height: auto;
+    }
+    .body_benler img{
+        width: 100%;
+        height: auto;
+    }
+    .body{
+        margin-top: -1%;
+    }
+    .body_about{
+        width: 100%;
+    }
+    .body_about_chu{
+        width: 100%;
+    }
+    .body_about_noidung{
+        width: 95%;
+        font-size: 1em;
+    }
+    .body_about_tong{
+        display: block;
+    }
+    .body_about_anh{
+        width: 100%;
+    }
+    .xinchao{
+        margin-top: -4px;
+    }
+    .dropdown{
+        display: block;
+        margin-right: 17%;
+    }
+    /* bài tập */
+    .body_work1{
+        max-width: 100%;
+        height: auto;
+    }
+    .body_work_chu1{
+        text-align: center;
+        font-size: 60px;
+    }
+    .body_work_hang1, .body_work_hang2, .body_work_hang3 {
+        display: block;
+        margin-top: 0%;
+        height: 23%;
+    }
+    .body_work_hang1{
+        height: 24.5%;
+    }
+    .body_work_hang2{
+        height: 30.5%;
+    }
+    .body_work_buoi1, .body_work_buoi2, .body_work_buoi3, .body_work_buoi4, .body_work_buoi5, .body_work_buoi6, .body_work_buoi7, .body_work_bai30 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    .body_work_buoi2, .body_work_buoi3, .body_work_bai30{
+        margin-top: 2%;
+    }
+    .body_services_chu1{
+        margin-top: 1.5%;
+    }
+    .body_services{
+        display: block;
+        text-align: center;
+    }
+    .body_services1{
+        border-top: 2px solid rgb(240, 237, 18);
+        width: 96.7%;
+    }
+    /* contact */
+    .contact{
+        display: block;
+        margin-top: -7%;
+        height: auto;
+    }
+    .contact_phai{
+        padding-top: 2%;
+        border-top:2px solid rgb(240, 237, 18) ;
+        width: 100%;
+    }
+    .contact_trai1{
+        font-size: 26px;
+
+    }
+    .nutlen{
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 576px){
+    .tieude_phai{
+        display: none;
+    }
+    .iconbar{
+        display: block;
+    }
+    /* .nutbar .iconbar:hover .tieude_phai{
+       display: block; 
+       background-color: black;
+       font-size: 30px;
+       text-align: center;
+    } */
+    .body_services{
+        width: 100%;
+    }
+    .body_benler{
+        width: 100%;
+        height: auto;
+    }
+    .body_benler img{
+        width: 100%;
+        height: auto;
+    }
+    .body{
+        margin-top: -1%;
+    }
+    .body_about{
+        width: 100%;
+    }
+    .body_about_chu{
+        width: 100%;
+    }
+    .body_about_noidung{
+        width: 95%;
+        font-size: 1em;
+    }
+    .body_about_tong{
+        display: block;
+    }
+    .body_about_anh{
+        width: 100%;
+    }
+    .xinchao{
+        margin-top: -4px;
+    }
+    .dropdown{
+        display: block;
+        margin-right: 17%;
+    }
+    /* bài tập */
+    .body_work1{
+        max-width: 100%;
+        height: auto;
+    }
+    .body_work_chu1{
+        text-align: center;
+        font-size: 60px;
+    }
+    .body_work_hang1, .body_work_hang2, .body_work_hang3 {
+        display: block;
+        margin-top: 0%;
+        height: 23%;
+    }
+    .body_work_hang1{
+        height: 24.5%;
+    }
+    .body_work_hang2{
+        height: 30.5%;
+    }
+    .body_work_buoi1, .body_work_buoi2, .body_work_buoi3, .body_work_buoi4, .body_work_buoi5, .body_work_buoi6, .body_work_buoi7, .body_work_bai30 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    .body_work_buoi2, .body_work_buoi3, .body_work_bai30{
+        margin-top: 2%;
+    }
+    .body_services_chu1{
+        margin-top: 1.5%;
+    }
+    .body_services{
+        display: block;
+        text-align: center;
+    }
+    .body_services1{
+        border-top: 2px solid rgb(240, 237, 18);
+        width: 100%;
+    }
+    /* contact */
+    .contact{
+        display: block;
+        margin-top: -7%;
+        height: auto;
+    }
+    .contact_phai{
+        padding-top: 2%;
+        border-top:2px solid rgb(240, 237, 18) ;
+        width: 82%;
+    }
+    .contact_trai1{
+        font-size: 26px;
+
+    }
+    .nutlen{
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+    }
+    .body_work_chu0, .body_services_chu1, .body_services_chu{
+        font-size: 2.5em;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1100px){  
+    .tieude_phai{
+        display: none;
+    }
+    .iconbar{
+        display: block;
+    }
+    .dropdown{
+        display: block;
+        margin-right: 17%;
+    }
+    .body_benler img{
+        height: auto;
+    }
+    .body_about_anh{
+        aspect-ratio: 1.2 / 1;
+    }
+    .body_work_chu1{
+        font-size: 4em;
+        padding-top: 10%;
+    }
+    .body_about_noidung{
+        font-size: 20px;
+    }
+    .body_about_tong{
+        height: auto;
+    }
+    .xinchao{
+
+        font-size: 40px;
+    }
+    .body_benler{
+        width: 100%;
+        height: auto;
+    }
+    .body_work_buoi1, .body_work_buoi2, .body_work_buoi3, .body_work_buoi4, .body_work_buoi5, .body_work_buoi6, .body_work_buoi7, .body_work_bai30 {
+        font-size: 3em;
+    }
+    .body_services_chu1{
+        margin-top: 1.25%;
+    }
+    .body{
+        max-width: 82%;
+        margin: 0 auto;
+        margin-top: -1%;
+    }
+    .body_services1{
+        width: 20%;
+        padding: 10px;
+    }
+    .body_services1 i {
+        font-size: 5em;
+    }
+    .body_services1 p {
+        font-size: 1.192em;
+        text-align: center;
+    }
+    .contact_trai1 {
+        display: flex;
+        font-size: 1.5em;
+        padding: 17px;
+    }
+}
+   </style>
+</body>
+</html>
